@@ -1,0 +1,22 @@
+{
+  "name": "snyk-js-classvalidator-1730566",
+  "version": "1.0.0",
+  "description": "Reproduces the https://security.snyk.io/vuln/SNYK-JS-CLASSVALIDATOR-1730566",
+  "main": "index.js",
+  "author": "katrotz@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.1",
+    "test-jest": "^1.0.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=\"--unhandled-rejections=strict\" jest --passWithNoTests --runInBand"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2"
+  }
+}
